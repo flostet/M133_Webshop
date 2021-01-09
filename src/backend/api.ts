@@ -31,7 +31,7 @@ router
     .get("/api/images/:image", async context => {
         const image = await Deno.readFile(`${Deno.cwd()}/src/backend/data/images/${context.params.image}`);
         context.response.body = image;
-        context.response.headers.set('Content-Type', 'image/png');
+        context.response.headers.set('Content-Type', 'image/jpg');
     });
 
 
