@@ -2,8 +2,8 @@
     {
         "id": "001",
         "productName": "Nektarinen gelb",
-        "specialOffer": 3.6,
-        "normalPrice": 5.2,
+        "specialOffer": 3.60,
+        "normalPrice": 5.20,
         "imageName": "api/images/nektarinen.png",
         "description": "Herkunft: Spanien"
     },
@@ -11,7 +11,7 @@
         "id": "002",
         "productName": "Rispentomaten",
         "specialOffer": 2.65,
-        "normalPrice": 3.1,
+        "normalPrice": 3.10,
         "imageName": "api/images/tomaten.png",
         "description": "Tomaten verfügen über einen hohen Gehalt an Vitamin C sowie Zucker und Mineralstoffen."
     },
@@ -19,14 +19,14 @@
         "id": "003",
         "productName": "Kalbs-Bratwürste",
         "specialOffer": 8.25,
-        "normalPrice": 16.5,
+        "normalPrice": 16.50,
         "imageName": "api/images/kalbsbratwuerste.png",
         "description": "Terra Suisse Kalbs-Bratwurst 3x2 Stück"
     },
     {
         "id": "004",
         "productName": "Appenzeller Classic",
-        "specialOffer": 2.7,
+        "specialOffer": 2.70,
         "normalPrice": 3.45,
         "imageName": "api/images/appenzeller.png",
         "description": "Schweizer Halbhartkäse und  vollfett. aus Rohmilch"
@@ -34,40 +34,40 @@
     {
         "id": "005",
         "productName": "Eier",
-        "specialOffer": 4.5,
-        "normalPrice": 5.4,
+        "specialOffer": 4.50,
+        "normalPrice": 5.40,
         "imageName": "api/images/eier.png",
         "description": "9 Schweizer Eier aus Frilandhaltung"
     },
     {
         "id": "006",
         "productName": "Krustenkranz",
-        "specialOffer": 2,
-        "normalPrice": 2.3,
+        "specialOffer": 2.00,
+        "normalPrice": 2.30,
         "imageName": "api/images/krustenkranz.png",
         "description": "Terra Suisse"
     },
     {
         "id": "007",
         "productName": "Magunm Almond",
-        "specialOffer": 7.9,
-        "normalPrice": 9.9,
+        "specialOffer": 7.90,
+        "normalPrice": 9.90,
         "imageName": "api/images/vanille_glace.png",
         "description": "Vanilleglace und Milchschokolade mit Mandeln"
     },
     {
         "id": "008",
         "productName": "Iced Green Tea",
-        "specialOffer": 7.5,
-        "normalPrice": 10.8,
+        "specialOffer": 7.50,
+        "normalPrice": 10.80,
         "imageName": "api/images/icedtea.png",
         "description": "AriZona Green Tea - Grünteegrtränk"
     },
     {
         "id": "009",
         "productName": "Senf",
-        "specialOffer": 2.7,
-        "normalPrice": 3.4,
+        "specialOffer": 2.70,
+        "normalPrice": 3.40,
         "imageName": "api/images/senf.png",
         "description": "Senf mild"
     },

@@ -22,10 +22,14 @@ function createCard(product: Product): Node{
     div.appendChild(textDiv);
     const text = document.createElement("p");
     textDiv.appendChild(text);
-    div.appendChild(a);
+    a.appendChild(div);
     img.src = product.imageName;
+
+    div.id = "productDiv";
+    a.href = `detail.html?productId=${product.id}`
+    a.id = "link";
 
     text.innerText = product.productName;
 
-    return div;
+    return a;
 }
