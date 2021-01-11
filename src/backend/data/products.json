@@ -4,7 +4,7 @@
         "productName": "Nektarinen gelb",
         "specialOffer": 3.6,
         "normalPrice": 5.2,
-        "imageName": "api/images/nektarinen.jpg",
+        "imageName": "api/images/nektarinen.png",
         "description": "Herkunft: Spanien"
     },
     {
@@ -12,7 +12,7 @@
         "productName": "Rispentomaten",
         "specialOffer": 2.65,
         "normalPrice": 3.1,
-        "imageName": "api/images/tomaten.jpg",
+        "imageName": "api/images/tomaten.png",
         "description": "Tomaten verfügen über einen hohen Gehalt an Vitamin C sowie Zucker und Mineralstoffen."
     },
     {
@@ -20,7 +20,7 @@
         "productName": "Kalbs-Bratwürste",
         "specialOffer": 8.25,
         "normalPrice": 16.5,
-        "imageName": "api/images/kalbsbratwuerste.jpg",
+        "imageName": "api/images/kalbsbratwuerste.png",
         "description": "Terra Suisse Kalbs-Bratwurst 3x2 Stück"
     },
     {
@@ -28,7 +28,7 @@
         "productName": "Appenzeller Classic",
         "specialOffer": 2.7,
         "normalPrice": 3.45,
-        "imageName": "api/images/appenzeller.jpg",
+        "imageName": "api/images/appenzeller.png",
         "description": "Schweizer Halbhartkäse und  vollfett. aus Rohmilch"
     },
     {
@@ -36,7 +36,7 @@
         "productName": "Eier",
         "specialOffer": 4.5,
         "normalPrice": 5.4,
-        "imageName": "api/images/eier.jpg",
+        "imageName": "api/images/eier.png",
         "description": "9 Schweizer Eier aus Frilandhaltung"
     },
     {
@@ -44,7 +44,7 @@
         "productName": "Krustenkranz",
         "specialOffer": 2,
         "normalPrice": 2.3,
-        "imageName": "api/images/krustenkranz.jpg",
+        "imageName": "api/images/krustenkranz.png",
         "description": "Terra Suisse"
     },
     {
@@ -52,7 +52,7 @@
         "productName": "Magunm Almond",
         "specialOffer": 7.9,
         "normalPrice": 9.9,
-        "imageName": "api/images/vanille_glace.jpg",
+        "imageName": "api/images/vanille_glace.png",
         "description": "Vanilleglace und Milchschokolade mit Mandeln"
     },
     {
@@ -60,7 +60,7 @@
         "productName": "Iced Green Tea",
         "specialOffer": 7.5,
         "normalPrice": 10.8,
-        "imageName": "api/images/icedtea.jpg",
+        "imageName": "api/images/icedtea.png",
         "description": "AriZona Green Tea - Grünteegrtränk"
     },
     {
@@ -68,7 +68,7 @@
         "productName": "Senf",
         "specialOffer": 2.7,
         "normalPrice": 3.4,
-        "imageName": "api/images/senf.jpg",
+        "imageName": "api/images/senf.png",
         "description": "Senf mild"
     },
     {
@@ -76,7 +76,7 @@
         "productName": "Olivenöl",
         "specialOffer": 14.35,
         "normalPrice": 17.95,
-        "imageName": "api/images/olivenoel.jpg",
+        "imageName": "api/images/olivenoel.png",
         "description": "Bertolli Olivenöl extra vergine originale"
     }
 ]
