@@ -13,13 +13,17 @@
 <body>
     
     <script type="module">
-        import { loadProducts } from "./build.app.js";
+        import { loadProducts, loadMiniCart } from "./build.app.js";
         loadProducts();
+        loadMiniCart();
     </script>
 
-    <div id="websiteView">
+    <div id="header">
         <h1>Dorfladen BBZW</h1>
-        <a href="cart.html"><img id="cartIMG" src="images/cart.png">2.50 CHF</a>
+        <a href="cart.html" id="miniCart">
+                <img id="cartIMG" src="images/cart.png">
+                <a id="totalPrice"></a>
+        </a>
     </div>
 
     <div id="productView"></div>
