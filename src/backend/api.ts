@@ -97,6 +97,23 @@ router
         } else {
             context.response.status = 404;
         }
+    })
+    .delete("/api/cart", async context => {
+        const cart: Cart = await context.state.session.get("cart");
+        if (cart.price == 0) {
+            context.response.status = 400;
+            context.response.body = "Warenkorb leer";
+        } else if (cart.price != 0) {
+            context.state.session.set("cart", {
+                price: 0,
+                items: []
+            });
+            context.response.status = 200;
+            context.response.body = context.state.session.get("cart");
+        } else {
+            context.response.status = 400;
+            context.response.body = 'Bestellung konnte nicht abgeschlossen werden'
+        }
     });
 
 
