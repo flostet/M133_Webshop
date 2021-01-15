@@ -1,13 +1,49 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
-#link{
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+#link {
     text-decoration: none;
     color: black;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
 }
 
 a {
@@ -15,64 +51,161 @@ a {
     color: black;
 }
 
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.bodyView {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 #productDiv {
-    border:solid;
-    border-color: black;
+    border: solid;
+    border-color: lightgrey;
     padding: 5px;
     margin: 5px;
 }
 
-#productDiv:hover{
+#productDiv:hover {
     background-color: lightgrey;
 }
 
 #productView {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#header{
-    margin-left: 100px;
-    margin-right: 100px;
+#header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    border: solid;
+    border-color: orange;
+    background-color: orange;
 }
 
-tr{
+tr {
     border: solid;
 }
 
-th{
+th {
     padding: 5px;
     border: solid;
 }
 
-td{
+td {
     padding: 5px;
     border: solid;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 200px;
 }
 
-h1{
+h1 {
     margin: 50px;
+    color: white;
 }
 
-#cartIMG{
-    width: 50px;
-    height: 50px;
+#cartIMG {
+    width: 40px;
+    height: 40px;
+    filter: invert();
 }
 
-#cartTotal{
+#cartTotal {
     width: 100px;
     height: 100px;
 }
+
+#totalPrice {
+    margin: 10px;
+    color: white;
+}
+
+#cartTable {
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+  }
+  
+  #cartTable tr td button, #cartTable tr td p {
+    float:left; 
+    display:inline;
+    width: 20%;
+    text-align: center;
+  }
+  
+  #cartTable tr {
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+  }
+
+  #btnCheckout {
+      margin-top: 10px;
+      justify-content: right;
+  }
+
+  button {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  #productPrice {
+    color: red;
+  }
+
+  #detailView{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  #addToCart {
+      width: 200px;
+  }
+
+  @media (max-width: 1000px) {
+    #header {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: orange;
+    }
+
+    #totalPrice {
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+  }
+
+  #link {
+      text-decoration: none;
+      text-decoration-color: white;
+  }
