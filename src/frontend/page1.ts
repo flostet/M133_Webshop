@@ -17,6 +17,8 @@ function createCard(product: Product): Node{
     const div = document.createElement("div");
     const a = document.createElement("a");
     const img = document.createElement("img");
+    const price = document.createElement("s");
+    const specialOffer = document.createElement("a");
     div.appendChild(img);
     const textDiv = document.createElement("div");
     div.appendChild(textDiv);
@@ -24,12 +26,19 @@ function createCard(product: Product): Node{
     textDiv.appendChild(text);
     a.appendChild(div);
     img.src = product.imageName;
+    textDiv.appendChild(price);
+    const priceBreak = document.createElement("br");
+    textDiv.appendChild(priceBreak);
+    textDiv.appendChild(specialOffer);
 
+    price.id = "productPrice";
     div.id = "productDiv";
     a.href = `detail.html?productId=${product.id}`
     a.id = "link";
 
     text.innerText = product.productName;
+    price.innerText = product.normalPrice.toFixed(2);
+    specialOffer.innerText = product.specialOffer.toFixed(2);
 
     return a;
 }
