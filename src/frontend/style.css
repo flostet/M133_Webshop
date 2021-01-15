@@ -27,8 +27,6 @@ img {
 }
 
 #productView {
-    border: solid;
-    border-radius: 2px;
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
@@ -44,6 +42,20 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+tr{
+    border: solid;
+}
+
+th{
+    padding: 5px;
+    border: solid;
+}
+
+td{
+    padding: 5px;
+    border: solid;
 }
 
 h1{
